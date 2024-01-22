@@ -1,0 +1,6 @@
+---
+- name: Node.js configuration
+  hosts: all
+  become: true
+  roles:
+    - nodejs
